@@ -27,6 +27,23 @@ class Fan {
         return this.color;
     }
 
+    int setSpeed(int speed) {
+        return this.speed = speed;
+    }
+
+    boolean setStatus(boolean status) {
+        return this.on = status;
+    }
+
+    double setRadius(double radius) {
+        return this.radius = radius;
+    }
+
+    String setColor(String color) {
+        return this.color = color;
+    }
+
+
     void setAll(int speed, boolean status, double radius, String color) {
         this.speed = speed;
         this.on = status;
