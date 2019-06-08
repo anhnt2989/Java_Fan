@@ -12,7 +12,7 @@ public class Define {
         System.out.println("Re-set speed of fan1: ");
         Fan1.setSpeed(scanner.nextInt());
         System.out.println("Re-set color of fan1: ");
-        Fan1.setColor(scanner.nextLine());
+        Fan1.setColor(scanner.next());
         System.out.println("Re-set radius of fan1: ");
         Fan1.setRadius(scanner.nextDouble());
         System.out.println("Fan1\'s info: ");
@@ -24,7 +24,7 @@ public class Define {
         System.out.println("Re-set speed of fan2: ");
         Fan2.setSpeed(scanner.nextInt());
         System.out.println("Re-set color of fan2: ");
-        Fan2.setColor(scanner.nextLine());
+        Fan2.setColor(scanner.next());
         System.out.println("Re-set radius of fan2: ");
         Fan2.setRadius(scanner.nextDouble());
         System.out.println("Fan2\'s info: ");
